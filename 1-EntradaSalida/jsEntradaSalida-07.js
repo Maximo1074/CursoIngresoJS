@@ -21,6 +21,10 @@ function sumar()
 
 function restar()
 {
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+
 	numeroUno = document.getElementById("txtIdNumeroUno").value;
 	numeroUno = parseInt(numeroUno);
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
@@ -33,6 +37,10 @@ function restar()
 
 function multiplicar()
 { 
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+
 	numeroUno = document.getElementById("txtIdNumeroUno").value;
 	numeroUno = parseInt(numeroUno);
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
@@ -45,6 +53,10 @@ function multiplicar()
 
 function dividir()
 {
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+
 	numeroUno = document.getElementById("txtIdNumeroUno").value;
 	numeroUno = parseInt(numeroUno);
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
